@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; 
+    font-family: "Bungee", sans-serif;
+}
+
+body {
+    background-color: aqua;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    display: block;
+    margin: 65px; 
+    padding: 16px;
+}
+
+.form button {
+    background-color: black;
+    color: white;
+    width: 100%;
+    cursor: pointer;
+}
+
+.mensagen-verdade{
+    background-color: rgb(31, 88, 9);
+    color: white;
+}
+.mensagen-falso{
+    background-color: red;
+    color: wheat;
+    
+    
+}
+input.error{
+    color:  red;
+    border-color: red;
+    outline-color: red;
+}
